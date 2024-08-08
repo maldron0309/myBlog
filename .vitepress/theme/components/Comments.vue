@@ -22,13 +22,13 @@ onContentUpdated(() => {
   }
   deleteChild(element);
   const gitalk = new Gitalk({
-    clientID: "a8430bf8a0464113ee24",
-    clientSecret: "df4cbf03c4ceca8a39076e6b7a0fb878e55534e2",
+    clientID: "Ov23lirKwAao0z2dTKYh",
+    clientSecret: "4c02b078834c14052fcfc64c32de4662d16bcf1b",
     repo: "blog-comments",
-    owner: "maldron",
-    admin: ["clark-cui"],
+    owner: "maldron0309",
+    admin: ["maldron0309"],
     id: location.pathname.substring(0, 50), // Ensure uniqueness and length less than 50
-    language: "ko",
+    language: "en-US",
     distractionFreeMode: true, // Facebook-like distraction free mode
   });
   gitalk.render("gitalk-container");
