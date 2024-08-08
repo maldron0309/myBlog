@@ -1,5 +1,5 @@
 ---
-title: "[TIL] 2024-08-08"
+title: "TIL"
 description: "TIL"
 date: 2024-08-08
 tags:
