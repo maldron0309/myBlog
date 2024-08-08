@@ -6,15 +6,15 @@ import MarkdownIt from "markdown-it";
 import type { FeedOptions, Item } from "feed";
 import { Feed } from "feed";
 
-const DOMAIN = "https://clark-cui.top";
+const DOMAIN = "https://myblog1-five.vercel.app/";
 const AUTHOR = {
-  name: "Clark Cui",
-  email: "rongchuancui@gmail.com",
+  name: "Maldron",
+  email: "parkdev640@gmail.com",
   link: DOMAIN,
 };
 const OPTIONS: FeedOptions = {
-  title: "Clark Cui",
-  description: "Clark Cui' Blog",
+  title: "Maldron",
+  description: "Maldron' Blog",
   id: `${DOMAIN}/`,
   link: `${DOMAIN}/`,
   copyright: "MIT License",
