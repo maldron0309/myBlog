@@ -1,4 +1,20 @@
 @import url("https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.6.0/style.min.css");
+@import url('https://webfontworld.github.io/knps/KNPSKkomi.css');
+
+@font-face {
+    font-family: 'KNPSKkomi';
+    src: url('https://webfontworld.github.io/knps/KNPSKkomi.woff2') format('woff2'),
+         url('https://webfontworld.github.io/knps/KNPSKkomi.woff') format('woff');
+    unicode-range: U+AC00-D7A3; /* 한글 범위 */
+}
+
+@font-face {
+    font-family: 'LXGW WenKai Lite';
+    src: url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.6.0/style.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.6.0/style.woff') format('woff');
+    unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
+}
+
 :root {
   --vp-c-brand: #a27b5c;
   --vp-c-brand-light: #a27b5c;
@@ -12,7 +28,7 @@
   --vp-c-color-d: #a15000;
   --vp-c-color-e: #ed7c0c;
 
-  --vp-font-family-base: "LXGW WenKai Lite", "Inter var experimental",
+  --vp-font-family-base: 'KNPSKkomi', 'LXGW WenKai Lite', "Inter var experimental",
     "Inter var", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --vp-font-family-mono: "LXGW WenKai Mono Lite", ui-monospace, SFMono-Regular,
@@ -20,6 +36,7 @@
     monospace;
   --vp-avator-border: #ffffff;
 }
+
 .dark {
   --vp-c-bg: #2c3639;
   --vp-c-text: white;
@@ -27,6 +44,7 @@
   --vp-c-bg-alpha-with-backdrop: rgba(44, 54, 57, 0.7);
   --vp-avator-border: #3f4e4f;
 }
+
 #app {
   min-height: 100vh;
   position: relative;
@@ -43,4 +61,8 @@
 
 .VPDocOutlineDropdown {
   display: none !important;
+}
+
+body {
+  font-family: var(--vp-font-family-base);
 }
