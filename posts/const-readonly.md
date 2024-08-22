@@ -1,7 +1,7 @@
 ---
 title: "[C#] const vs readonly 무슨 차이??"
 description: "const와 readonly의 차이"
-date: 2024-08-08
+date: 2024-08-21
 tags:
   - C#
 ---
